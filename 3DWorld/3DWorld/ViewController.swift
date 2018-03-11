@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         let sceneView = self.view as! SCNView
         sceneView.scene = scene
     
+        if let stars = SCNParticleSystem(named: "StarParticles.scnp", inDirectory: nil) {
+            scene.rootNode.addParticleSystem(stars)
+        }
         //To see statistics
         sceneView.showsStatistics = true
         sceneView.backgroundColor = .black

@@ -14,6 +14,8 @@
 		0DC16E54205426F800498A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC16E52205426F800498A11 /* LaunchScreen.storyboard */; };
 		0DC16E5F205426F800498A11 /* _DWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC16E5E205426F800498A11 /* _DWorldTests.swift */; };
 		0DC16E6A205426F800498A11 /* _DWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC16E69205426F800498A11 /* _DWorldUITests.swift */; };
+		0DC16E7920551E0000498A11 /* StarParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 0DC16E7720551E0000498A11 /* StarParticles.scnp */; };
+		0DC16E7A20551E0000498A11 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC16E7820551E0000498A11 /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0DC16E65205426F800498A11 /* 3DWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC16E69205426F800498A11 /* _DWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DWorldUITests.swift; sourceTree = "<group>"; };
 		0DC16E6B205426F800498A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC16E7720551E0000498A11 /* StarParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = StarParticles.scnp; sourceTree = "<group>"; };
+		0DC16E7820551E0000498A11 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				0DC16E49205426F800498A11 /* AppDelegate.swift */,
 				0DC16E4B205426F800498A11 /* ViewController.swift */,
+				0DC16E7720551E0000498A11 /* StarParticles.scnp */,
+				0DC16E7820551E0000498A11 /* star.png */,
 				0DC16E4D205426F800498A11 /* Main.storyboard */,
 				0DC16E50205426F800498A11 /* Assets.xcassets */,
 				0DC16E52205426F800498A11 /* LaunchScreen.storyboard */,
@@ -233,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC16E54205426F800498A11 /* LaunchScreen.storyboard in Resources */,
+				0DC16E7A20551E0000498A11 /* star.png in Resources */,
+				0DC16E7920551E0000498A11 /* StarParticles.scnp in Resources */,
 				0DC16E51205426F800498A11 /* Assets.xcassets in Resources */,
 				0DC16E4F205426F800498A11 /* Main.storyboard in Resources */,
 			);
