@@ -7,19 +7,42 @@
 //
 
 import UIKit
+import SceneKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.intialSetUp()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
+    
+    func intialSetUp()  {
+        let scene = SCNScene()
 
+        let cameraNode = SCNNode()
+        cameraNode.camera = SCNCamera()
+        
+        scene.rootNode.addChildNode(cameraNode)
+        
+        let sceneView = self.view as! SCNView
+        sceneView.scene = scene
+    
+        //To see statistics
+        sceneView.showsStatistics = true
+        sceneView.backgroundColor = .black
+        
+        //To enable camera features
+        sceneView.allowsCameraControl = true
+        
 
+    }
+    
+    func setUpCamera()  {
+    }
+    
 }
 
